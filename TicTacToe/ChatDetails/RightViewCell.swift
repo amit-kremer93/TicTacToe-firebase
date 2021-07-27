@@ -2,7 +2,7 @@
 //  RightViewCell.swift
 //  ChatSample
 //
-//  Created by Hafiz on 20/09/2019.
+//  Created by Amit kremer on 06/06/2021
 //  Copyright © 2019 Nibs. All rights reserved.
 //
 

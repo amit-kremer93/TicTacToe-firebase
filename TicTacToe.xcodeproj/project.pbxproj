@@ -10,7 +10,6 @@
 		81059D1A9A372B32CD132EF2 /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABBBE109E2A8C139950A413 /* Pods_TicTacToe.framework */; };
 		A9EFFD7BAB730D2BBA1FCF8B /* Pods_TicTacToeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F580DC8FE2FB8CB38DBE4A6B /* Pods_TicTacToeTests.framework */; };
 		B85D078D0D3F5DB87A39FD9B /* Pods_TicTacToe_TicTacToeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AD7856779D298A47875A00 /* Pods_TicTacToe_TicTacToeUITests.framework */; };
-		ED3BAEC2269B2D4900852ECD /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3BAEC0269B2D4900852ECD /* MessageStore.swift */; };
 		ED3BAEC8269B2D6500852ECD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3BAEC6269B2D6500852ECD /* Message.swift */; };
 		ED3BAECA269B362800852ECD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3BAEC9269B362800852ECD /* Extension.swift */; };
 		ED3BAED0269B36FE00852ECD /* RightViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3BAECC269B36FE00852ECD /* RightViewCell.xib */; };
@@ -58,7 +57,6 @@
 		8C18ADA1842364AC47255922 /* Pods-TicTacToe-TicTacToeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe-TicTacToeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TicTacToe-TicTacToeUITests/Pods-TicTacToe-TicTacToeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E57E02EEAEFDB18D2BE29B7 /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
 		C10E32CD4798BB79CE74ACE0 /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
-		ED3BAEC0269B2D4900852ECD /* MessageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
 		ED3BAEC6269B2D6500852ECD /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		ED3BAEC9269B362800852ECD /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		ED3BAECC269B36FE00852ECD /* RightViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewCell.xib; sourceTree = "<group>"; };
@@ -130,14 +128,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		ED3BAEBF269B2D4900852ECD /* Stores */ = {
-			isa = PBXGroup;
-			children = (
-				ED3BAEC0269B2D4900852ECD /* MessageStore.swift */,
-			);
-			path = Stores;
-			sourceTree = "<group>";
-		};
 		ED3BAEC4269B2D6500852ECD /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,7 +195,6 @@
 				ED46504526AF14B30075A5D3 /* Utils */,
 				ED46504426AF148C0075A5D3 /* ViewControllers */,
 				ED3BAEC4269B2D6500852ECD /* Model */,
-				ED3BAEBF269B2D4900852ECD /* Stores */,
 				EDBFB1E5266CE7DB0021DB59 /* AppDelegate.swift */,
 				EDBFB1E7266CE7DB0021DB59 /* SceneDelegate.swift */,
 				ED3BAECB269B36FE00852ECD /* ChatDetails */,
@@ -489,7 +478,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3BAEC2269B2D4900852ECD /* MessageStore.swift in Sources */,
 				EDBFB1EA266CE7DB0021DB59 /* ViewController.swift in Sources */,
 				EDBFB1E6266CE7DB0021DB59 /* AppDelegate.swift in Sources */,
 				EDBFB1E8266CE7DB0021DB59 /* SceneDelegate.swift in Sources */,
