@@ -166,7 +166,7 @@ class NewGameViewController: UIViewController, UICollectionViewDelegate {
                     if(!self.player1.contains(btnIndex)){
                         self.player1.append(btnIndex)
                     }
-                    self.ref.child("games").child(self.gameUUID).child("currentPlayer").setValue(self.currentPlayer+1);
+//                    self.ref.child("games").child(self.gameUUID).child("currentPlayer").setValue(self.currentPlayer+1);
                     self.findWinner()
                 }
             }
